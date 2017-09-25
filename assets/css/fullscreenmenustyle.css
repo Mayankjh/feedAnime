@@ -1,0 +1,104 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: verdana;
+}
+.search{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 50px;
+
+  transition: .5s;
+}
+.search .icon
+{
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.search .icon:before{
+  content: "\f0ae";
+  font-family: fontAwesome;
+
+}
+.search.active .icon:before{
+  content: "\f00d";
+  font-family: fontAwesome;
+
+}
+.search.active{
+  width: 100vw;
+  height: 100vh;
+  background: #670090;
+}
+
+.form{
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  translate: (-50%, -50%);
+  display: none;
+}
+.form input{
+  background: transparent;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 40px;
+  padding: 10px 0;
+}
+.search.active .form{
+  display: block;
+}
+
+.form a{
+  color: #fff;
+  font-size: 40px;
+}
+
+@media (max-width: 720px){
+              .form a{
+                          font-size: 20px;
+
+              }
+              .form{
+                position: absolute;
+                top: 30%;
+                left: 20%;
+                translte: (-50%, -50%);
+                display: none;
+              }
+              .search{
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 50px;
+                height: 40px;
+                
+                transition: .5s;
+              }
+              .search .icon
+              {
+                width: 60px;
+                height: 60px;
+                line-height: 40px;
+                font-size: 30px;
+                color: #fff;
+                text-align: center;
+                position: absolute;
+                top: 0;
+                right: 0;
+                cursor: pointer;
+                margin-right: 0;
+              }
+            }

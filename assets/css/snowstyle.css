@@ -1,0 +1,121 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+section{
+  background: url();
+  background-size: cover;
+  width: 100%;
+  height: 650px;
+  position: relative;
+  overflow: hidden;
+  }
+
+  .snow1{
+    background: url(snow.png);
+    background-repeat: no-repeat;
+    height: 650px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: animateOne 30s infinite linear;
+    overflow: hidden;
+
+  }
+  .snow2{
+    background: url(snow.png);
+    background-repeat: repeat;
+    background-position: top;
+    height: 650px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: animateTwo 10s infinite linear;
+    overflow: hidden;
+    background-size: 700px;
+    filter: blur(2px);
+  }
+  .snow3{
+    background: url(snow.png);
+    background-repeat: repeat;
+    background-position: center;
+    height: 650px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: animateThree 13s infinite linear;
+    background-size: 850px;
+  }
+  .snow4{
+    background: url(snow.png);
+    background-repeat: no-repeat;
+    height: 650px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: animateFour 15s infinite linear;
+
+  }
+  .snow5{
+    background: url(snow.png);
+    background-repeat: no-repeat;
+    height: 650px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: animateFive 25s infinite linear;
+  }
+  @keyframes animateOne {
+    0%{
+      background-position: 500px 0px;
+    }
+
+    100%{
+      background-position: 100px 650px;
+    }
+  }
+  @keyframes animateTwo {
+    0%{
+      background-position: 0px -100px;
+      animation-delay: 3s;
+    }
+
+    100%{
+      background-position: 0px 650px;
+    }
+  }
+  @keyframes animateThree {
+    0%{
+      background-position: 300px 100px;
+      animation-delay: 5s;
+    }
+
+    100%{
+      background-position: 300px 650px;
+    }
+  }
+  @keyframes animateFour {
+    0%{
+      background-position: 500px 0px;
+      animation-delay: 4s;
+    }
+
+    100%{
+      background-position: 200px 650px;
+    }
+  }
+  @keyframes animateFive {
+    0%{
+      background-position: 150px 0px;
+      animation-delay: 2s;
+    }
+
+    100%{
+      background-position: 0px 650px;
+    }
+  }

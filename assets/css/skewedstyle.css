@@ -1,0 +1,354 @@
+#bk{
+
+    background-color:  black;
+}
+.skewedBox1{
+  background: url(..\\img\\gokubg.jpg);
+  padding: 100px 0;
+  transform: skew(0deg,-10deg)translateY(-100px);
+  background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.skewedBox2{
+  padding: 0 200px 150px;
+  color: #fff;
+  font-family: verdana;
+  text-align: right;
+  background: url(..\\img\\16.jpg);
+  transform: skew(0deg,-10deg)translateY(-100px);
+  transform: skew(0deg,-10deg)translateY(-100px);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.skewedBox3{
+  background: url(..\\img\\bg.jpg);
+  padding: 100px 0;
+
+  transform: skew(0deg,-10deg)translateY(-100px);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.skewedBox4{
+  padding: 0 200px 150px;
+  color: #fff;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  font-family: verdana;
+  text-align: right;
+  background: url(..\\img\\ng1.jpg);
+  transform: skew(0deg,-10deg)translateY(-100px);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.skewedBox5{
+  background: url(..\\img\\tokyo.jpg);
+  padding: 100px 0;
+  transform: skew(0deg,-10deg)translateY(-100px);
+  background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.skewedBox6{
+  padding: 0 200px 150px;
+  color: #fff;
+  font-family: verdana;
+  text-align: right;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  background: url(..\\img\\Noragami.jpg);
+  transform: skew(0deg,-10deg)translateY(-100px);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.skewedBox7{
+  background: url(..\\img\\haikyuu.jpg);
+  padding: 100px 0;
+  transform: skew(0deg,-10deg)translateY(-100px);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.skewedBox8{
+  padding: 0 200px 150px;
+  color: #fff;
+  font-family: verdana;
+  text-align: right;
+  background: url(..\\img\\pain.jpg);
+  transform: skew(0deg,-10deg)translateY(-100px);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.skewedBox9{
+  background: url(..\\img\\222.jpg);
+  padding: 100px 0;
+  transform: skew(0deg,-10deg)translateY(-100px);
+  background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.skewedBox10{
+  padding: 0 200px 150px;
+  color: #fff;
+  font-family: verdana;
+  text-align: right;
+  background: url(..\\img\\bleach.jpg);
+  transform: skew(0deg,-10deg)translateY(-100px);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#white{
+  color:white;
+}
+
+.box{
+  padding: 150px 150px;
+  transform: skew(0deg,10deg);
+  font-family: verdana;
+}
+
+
+.box h1{
+  margin: 0;
+  padding: 20px 0;
+  font-size: 3em;
+}
+.box p{
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5em;
+  width: 80%;
+}
+
+.skewedbox2 h1{
+  margin: 0;
+  padding: 20px 0;
+  font-size: 3em;
+}
+.skewedbox2 p{
+  font-size: 1.5em;
+  margin: 0;
+  padding:0;
+  line-height: 2em;
+  width: 100%;
+}
+
+.skewedbox4 h1{
+  margin: 0;
+  padding: 20px 0;
+  font-size: 3em;
+}
+.skewedbox4 p{
+  font-size: 1.5em;
+  margin: 0;
+  padding:0;
+  line-height: 2em;
+  width: 100%;
+}
+
+.skewedbox6 h1{
+  margin: 0;
+  padding: 20px 0;
+  font-size: 3em;
+}
+.skewedbox6 p{
+  font-size: 1.5em;
+  margin: 0;
+  padding:0;
+  line-height: 2em;
+  width: 100%;
+}
+.skewedbox8 h1{
+  margin: 0;
+  padding: 20px 0;
+  font-size: 3em;
+}
+.skewedbox8 p{
+  font-size: 1.5em;
+  margin: 0;
+  padding:0;
+  line-height: 2em;
+  width: 100%;
+}
+
+.skewedbox10 h1{
+  margin: 0;
+  padding: 20px 0;
+  font-size: 3em;
+}
+.skewedbox10 p{
+  font-size: 1.5em;
+  margin: 0;
+  padding:0;
+  line-height: 2em;
+  width: 100%;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+@media (max-width: 720px){
+
+
+.box{
+  padding: 50px 50px;
+  transform: skew(0deg,10deg);
+  font-family: verdana;
+}
+      
+      .box h1{
+ 
+  font-size: 20px;
+  font-weight: bolder ;
+  text-align: center;
+}
+
+.box p{
+  font-size: 15px;
+  font-weight: bold ;
+  text-align: center;
+
+}
+
+.skewedBox2{
+  padding:  50px 50px;
+  text-align: center;
+  margin-left: 0px;
+}
+
+.skewedBox3{
+padding:  50px 50px;
+  text-align: center;
+  margin-left: 0px;
+}
+.skewedBox4{
+ padding:  50px 50px;
+  text-align: center;
+  margin-left: 0px;
+}
+.skewedBox5{
+ padding:  50px 50px;
+  text-align: center;
+  margin-left: 0px;
+}
+.skewedBox6{
+ padding:  50px 50px;
+  text-align: center;
+  margin-left: 0px;
+}
+.skewedBox7{
+ padding:  50px 50px;
+  text-align: center;
+  margin-left: 0px;
+}
+.skewedBox8{
+ padding:  50px 50px;
+  text-align: center;
+  margin-left: 0px;
+}
+.skewedBox9{
+padding:  50px 50px;
+  text-align: center;
+  margin-left: 0px;
+}
+.skewedBox10{
+  padding:  50px 50px;
+  text-align: center;
+  margin-left: 0px;
+}
+
+.skewedbox2 p{
+ font-size: 15px;
+ font-weight: bold ;
+}
+.skewedbox2 h1{
+ font-size: 20px;
+ font-weight: bolder;
+}
+
+.skewedbox3 p{
+ font-size: 15px;
+  font-weight: bold ;
+}
+.skewedbox3 h1{
+ font-size: 20px;
+ font-weight: bolder ;
+}
+
+.skewedbox4 p{
+ font-size: 15px;
+  font-weight: bold ;
+}
+.skewedbox4 h1{
+ font-size: 20px;
+ font-weight: bolder ;
+}
+
+.skewedbox5 p{
+ font-size: 15px;
+  font-weight: bold ;
+}
+.skewedbox5 h1{
+ font-size: 20px;
+ font-weight: bolder ;
+}
+
+.skewedbox6 p{
+ font-size: 15px;
+  font-weight: bold ;
+}
+.skewedbox6 h1{
+ font-size: 20px;
+ font-weight: bolder ;
+}
+
+.skewedbox7 p{
+ font-size: 15px;
+  font-weight: bold ;
+}
+.skewedbox7 h1{
+ font-size: 20px;
+ font-weight: bolder ;
+}
+
+.skewedbox8 p{
+ font-size: 15px;
+  font-weight: bold ;
+}
+.skewedbox8 h1{
+ font-size: 20px;
+ font-weight: bolder ;
+}
+
+.skewedbox9 p{
+ font-size: 15px;
+  font-weight: bold ;
+}
+.skewedbox9 h1{
+ font-size: 20px;
+ font-weight: bolder ;
+}
+
+.skewedbox10 p{
+ font-size: 15px;
+  font-weight: bold ;
+}
+.skewedbox10 h1{
+ font-size: 20px;
+  font-weight: bolder ;
+}
+   
+}
+
+
+

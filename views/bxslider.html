@@ -1,0 +1,124 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Responsive jQuery Slider - bxSlider</title>
+
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.5/jquery.bxslider.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.5/jquery.bxslider.css">
+  </head>
+<script>
+$(document).ready(function(){
+  $('.slider4').bxSlider({
+    slideWidth: 500,
+    minSlides: 2,
+    maxSlides: 3,
+    moveSlides: 1,
+    slideMargin: 1
+  });
+});
+
+</script>
+<style>
+::-webkit-scrollbar {
+    display: none;
+}
+body{
+  background: url(../assets/img/1.jpg);
+}
+h1{
+  color:#fff;
+  text-align: center;
+}
+
+    #download:hover{
+          background: linear-gradient(#6200ea,#6200ea);
+    }
+    #download:focus{
+          outline: none;
+    }
+
+    @media (max-width: 720px){
+
+  #download{
+         padding: 0.4px;
+         width: 120%;
+         margin-left:-10px;
+         border-radius: 5px;
+         border: 0;
+         box-sizing: border-box;
+         color: black;
+         font-weight: lighter;
+         cursor: pointer;
+         font-size: 4px;
+         border-bottom: 2px solid #000;
+         text-shadow: 1px 1px 1px #000;}
+  
+}
+
+
+
+
+</style>
+</head>
+<body>
+
+  <h1>WALLPAPER</h1>
+  <div class="slider4">
+    <div class="slide">
+       <div class="panel panel-danger">
+      <div class="panel-heading">WALLPAPER #1</div>
+      <div class="panel-body"><a href="#" ><img src="http://res.cloudinary.com/leonardm/image/upload/v1503690068/thumb-1920-87214_zyr8l0.jpg"  class="img-responsive" style="width:100% " alt="Image"></div>
+      <center>
+
+    <div class="panel-footer"><a class="btn btn-danger" style="font-size:20px;" href="http://res.cloudinary.com/leonardm/image/upload/v1503690068/thumb-1920-87214_zyr8l0.jpg" target="_blank" id="download">DOWNLOAD</a></div>  </center>
+    </div>
+  </div>
+    <div class="slide"><div class="panel panel-success">
+       <div class="panel-heading">WALLPAPER #2</div>
+       <div class="panel-body"><a href="#" ><img src="http://res.cloudinary.com/leonardm/image/upload/v1503690042/b87f8c2a8e1a9f65b0d28ac7c161dab2_pfbdr4.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+      <center>
+      <div class="panel-footer"><a class="btn btn-success" style="font-size:20px;" href="http://res.cloudinary.com/leonardm/image/upload/v1503690042/b87f8c2a8e1a9f65b0d28ac7c161dab2_pfbdr4.jpg" target="_blank" id="download">DOWNLOAD</a></div></center>
+    </div>
+  </div>
+  <div class="slide"><div class="panel panel-primary">
+     <div class="panel-heading">WALLPAPER #3</div>
+     <div class="panel-body"><a href="#" ><img src="http://res.cloudinary.com/leonardm/image/upload/v1503690720/24_m9b3pg.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+    <center><div class="panel-footer"><a class="btn btn-primary" style="font-size:20px;" href="http://res.cloudinary.com/leonardm/image/upload/v1503690720/24_m9b3pg.jpg" target="_blank" id="download">DOWNLOAD</a></div></center>
+  </div>
+</div>  <div class="slide"><div class="panel panel-danger">
+     <div class="panel-heading">WALLPAPER #4</div>
+     <div class="panel-body"><a href="#" ><img src="http://res.cloudinary.com/leonardm/image/upload/v1503690403/3_egl53j.jpg" class="img-responsive" style="width:100%"  alt="Image"></div>
+    <center><div class="panel-footer"><a class="btn btn-danger" style="font-size:20px;" href="http://res.cloudinary.com/leonardm/image/upload/v1503690403/3_egl53j.jpg" target="_blank" id="download">DOWNLOAD</a></div></center>
+  </div>
+</div>  <div class="slide"><div class="panel panel-success">
+     <div class="panel-heading">WALLPAPER #5</div>
+     <div class="panel-body"><a href="#" ><img src="http://res.cloudinary.com/leonardm/image/upload/v1503690400/10_rq5qpf.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+    <center><div class="panel-footer"><a class="btn btn-success" style="font-size:20px;" href="http://res.cloudinary.com/leonardm/image/upload/v1503690400/10_rq5qpf.jpg" target="_blank" id="download">DOWNLOAD</a></div></center>
+  </div>
+</div>  <div class="slide"><div class="panel panel-primary">
+     <div class="panel-heading">WALLPAPER #6</div>
+     <div class="panel-body"><a href="#" ><img src="http://res.cloudinary.com/leonardm/image/upload/v1503690386/25_ur6yi2.png" class="img-responsive" style="width:100%" alt="Image"></div>
+    <center><div class="panel-footer"><a class="btn btn-primary" style="font-size:20px;" href="http://res.cloudinary.com/leonardm/image/upload/v1503690386/25_ur6yi2.png" target="_blank" id="download">DOWNLOAD</a></div></center>
+  </div>
+</div>
+<div class="slide"><div class="panel panel-danger">
+   <div class="panel-heading">WALLPAPER #7</div>
+   <div class="panel-body"><a href="#" ><img src="http://res.cloudinary.com/leonardm/image/upload/v1503690249/4_qp5nd6.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+<center> <div class="panel-footer"><a class="btn btn-danger" style="font-size:20px;" href="http://res.cloudinary.com/leonardm/image/upload/v1503690249/4_qp5nd6.jpg" target="_blank" id="download">DOWNLOAD</a></div></center>
+</div>
+</div>
+<div class="slide"><div class="panel panel-success">
+   <div class="panel-heading">WALLPAPER #8</div>
+   <div class="panel-body"><a href="#" ><img src="http://res.cloudinary.com/leonardm/image/upload/v1503690083/Roses-24099_qa0ygx.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+<center>  <div class="panel-footer"><a class="btn btn-success" style="font-size:20px;" href="http://res.cloudinary.com/leonardm/image/upload/v1503690083/Roses-24099_qa0ygx.jpg" target="_blank" id="download">DOWNLOAD</a></div></center>
+</div>
+</div>
+  </div>
+
+</body>
+</html>

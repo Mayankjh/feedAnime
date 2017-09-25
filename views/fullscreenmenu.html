@@ -1,0 +1,32 @@
+<html>
+<head>
+  <meta charset="utf-8" />
+	<title>Search</title>
+  <link rel="stylesheet" href="fullscreenmenustyle.css" type="text/css" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script type="text/javascript">
+   $(document).ready(function(){
+     $(' .icon').click(function(){
+       $(' .search').toggleClass(' active')
+     });
+   });
+
+  </script>
+
+</head>
+<body>
+  <div class="search">
+    <div class="icon"></div>
+    <div class="form">
+      <form>
+         <a class="dropdown-toggle" style="color:white"  href="#">INTRODUCTION</a><br />
+         <a href="#" class="dropdown-toggle" style="color:white" >WALLPAPER</a><br />
+         <a href="#" class="dropdown-toggle" style="color:white" >MANGA</a><br />
+         <a href="#" class="dropdown-toggle" style="color:white" >REVIEWS AND DEMANDS</a><br />
+
+      </form>
+    </div>
+  </div>
+</body>
+</html>

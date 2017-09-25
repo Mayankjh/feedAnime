@@ -1,0 +1,153 @@
+
+
+/*---------- SLIDE CAPTION ----------*/
+.slide_style_left {
+    text-align: left !important ;
+}
+.slide_style_right {
+    text-align: right !important;
+}
+.slide_style_center {
+    text-align: center !important;
+}
+
+
+.slide-text {
+    left: 0;
+    top: 25%;
+    right: 0;
+    margin: auto;
+    padding: 0px;
+    position: absolute;
+    text-align: left;
+    padding: 10px 85px;
+
+}
+
+
+
+
+
+.slide-text > h1 {
+
+    padding:0;
+    color: #ffffff;
+    -size: 70px;
+    font-style: norm
+    line-height: 84px;
+    margin-bottom: 30px;
+    margin-left: 65px;
+    margin-right: 65px;
+    letter-spacing: 1px;
+    display: inline-block;
+    -webkit-animation-delay: 0.7s;
+    animation-delay: 0.7s;
+}
+
+
+
+.slide-text > a.btn-primary{
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 13px;
+   margin-left: 65px;
+    line-height: 15px;
+    text-align: center;
+    margin-right: 65px;
+    padding: 17px 30px;
+    white-space: nowrap;
+    letter-spacing: 1px;
+    background: #00bfff;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-transition: 0.3s ease-in-out, color 0.3s ease-in-out;
+    transition:  0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.slide-text > a:hover,
+.slide-text > a:active {
+    color: #ffffff;
+    background: #222222;
+    -webkit-transition:  0.5s ease-in-out, color 0.5s ease-in-out;
+    transition:0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+
+div.gallery:hover {
+    opacity: 0.8;
+  }
+
+
+
+
+#subscribe{
+  background-image: url("../anime site/logo44.jpg");
+  max-width:auto !important;
+background-size:100%;
+  padding:0px ;
+  max-height:auto !important;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+#login1{
+  background-image: url("../anime site/logo49.jpg");
+  max-width:auto !important;
+background-size:100%;
+  padding:0px ;
+  max-height:auto !important;
+}
+.jumbotron{
+background-image: url("../anime site/lo.jpg");
+  background-size:100%;
+  background-color: white;
+
+}
+.fa-youtube {
+  background:;
+  color:white;
+
+}
+.fa {
+  padding: 20px;
+  font-size: 40px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa-instagram {
+  background: #125688;
+    font-size: 30px;
+  color: white;
+  width: 70px;
+}
+.fa-google-plus {
+  background: #dd4b39;
+  color: white;
+  font-size: 30px;
+  width: 70px;
+}
+.fa-facebook {
+  background: #3B5998;
+  font-size:30px;
+  color: white;
+  width: 70px;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  font-size: 30px;
+  color: white;
+  width: 70px;
+}

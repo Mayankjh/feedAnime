@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  background: #000;
+}
+#galaxybg{
+
+  background: url(planet.png)90% 50% no-repeat, url(star.png) 5% 10% repeat, url(nightsky.png)20% 40%;
+  position:absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-transition: left 100s linear;
+  -moz-transition: left 100s linear;
+  -ms-transition: left 100s linear;
+  -o-transition: left 100s linear;
+  transition: left 100s linear;
+}
+#galaxy:hover > #galaxybg{
+  left: -10000px;
+}
